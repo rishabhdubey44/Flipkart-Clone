@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-section {
+    position: fixed;
+    top: 0;
+    left: 100px;
+    right: 100px;
+    z-index: 1000;
+    background-color: white;
+}
+
+
+.main {
+    margin: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+
+}
+
+.Hi {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.Travel {
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.location {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.location a {
+    font-size: 20px;
+    color: #2874f0;
+}
+
+.Search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.Search-bar {
+    width: 70%;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Search-bar input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.Search-bar:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.Search-bar input:focus {
+    outline: none;
+}
+
+.Login,
+.More,
+.Cart {
+    font-size: 20px;
+}
+
+.Login:hover,
+.More:hover,
+.Cart:hover {
+    color: red;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+    font-size: large;
+    ;
+}
+
+.items div:hover {
+    color: #2874f0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 200px;
+    background-color: lightblue;
+}
+
+.item1,
+.item2,
+.item3 {
+    width: 33%;
+    height: auto;
+    overflow: hidden;
+
+}
+
+.item1 img,
+.item2 img,
+.item3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container-2 {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: mark;
+
+}
+
+.latest {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.item4,
+.item5,
+.item6,
+.item7 {
+    width: 24%;
+    height: 350px;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.item4 img,
+.item5 img,
+.item6 img,
+.item7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover,
+.item5:hover,
+.item6:hover,
+.item7:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+.offer-banner {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 12px;
+    text-align: center;
+    background-color: #e8f0fe;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    line-height: 1.8;
+}
